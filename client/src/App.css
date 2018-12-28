@@ -1,0 +1,63 @@
+.item-todo{
+  display:flex;
+  /* outline: 1px solid red; */
+  height: 40px;
+  margin-top: 75px;
+  justify-content:space-between;
+  align-items:center;
+
+}
+.item_id{
+width:150px;
+overflow: hidden;
+font-size: 12px;
+}
+.item_text{
+  flex:3;
+}
+.item_status{
+  flex:3;
+}
+.item_date{
+  flex:1;
+}
+
+.item-todo .button-group{
+  visibility: hidden;
+  /* visibility:visible; */
+  width: 70px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.item-todo:hover .button-group{
+  visibility:visible;
+ }
+
+ .link-edit {
+   display: inline-block;
+  height: 90%;
+  width: 45%;
+  text-decoration: none;
+ 
+ }
+ .link-edit i{  
+
+  font-size: 24px;
+  
+}
+ .btn-del{
+  height: 90%;
+  width: 45%;
+  outline: none;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+  
+ }
+
+ .btn-del i{
+  color:red;
+  font-size: 24px;
+ }
